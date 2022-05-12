@@ -22,16 +22,29 @@ Implementation comments can be found embedded in the python script.
 
 Sample test code:
 (add 5 (mul 3 (div 1 ( add 3 (sub 9)))))
+
 (* 3 (- 2 (+ 6 8)))
+
 (cons 1 2)
+
 237
+
 (car (cons 4 8))
+
 (cdr (cons 3 5))
+
 (car (cons 2 (cons 3 5)))
+
 (list 3 8 13 27)
+
 (car (list 3 8 13 27))
+
 (cons HELLO WORLD)
+
 (cons IT (cons IS (cons UBSURDLY (cons OUTSIDE TODAY))))
+
 (cdr (cons SERIOUSLY (cons WHY (cons IS (cons IT (cons SO HOT))))))
+
 (list (list 1 2) (list 3 4))
+
 (cdr (list 3 8 13 27))
